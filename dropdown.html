@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+  <title>Dropdown</title>
+</head>
+<body>
+
+      <header>
+           <div class="row">
+             <div class="container-fluid">
+                
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Componentes de Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </nav>
+             </div>
+            </div>
+      </header>
+      <main>
+         <div class="row mt-3"> 
+           <div class="container-fluid text-center">
+              <div class="jumbotron">
+                <h1 class="display-3">Dropdown</h1>
+                <hr class="my-4">
+                <p>Veja como funciona o Dropdown</p>
+               
+              </div>
+           </div>
+         </div>
+
+      <div class="container">
+        <div class="row">
+          <p>Alterne sobreposições contextuais para exibir listas de links e muito mais com o plug-in suspenso do Bootstrap.
+          Os menus suspensos são sobreposições contextuais, para exibir listas de links e muito mais. Eles são interativos com o plug-in JavaScript do Dropstrap incluído. Eles são alternados clicando, não pairando; esta é uma decisão de projeto intencional.Dropdowns são construídos em uma biblioteca de terceiros, Popper.js , que fornece posicionamento dinâmico e detecção de viewport.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h2>Botão único</h2>
+            <p>Qualquer single .btnpode ser transformado em uma opção suspensa com algumas alterações de marcação. Veja como você pode colocá-los para trabalhar com qualquer um dos &lt;button&gt; elementos:</p>
+        </div>
+
+        <div class="row">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown button
+            </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+        </div>  
+
+        <div class="row d-flex p-2 bd-highlight">
+            <textarea  style="resize: none" cols="153" rows="12">
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div>
+            </textarea>
+      </div> 
+      <div class="container">
+      <p> E com   &lt;a&gt; elementos: </p> 
+               <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex p-2 bd-highlight">
+            <textarea  style="resize: none" cols="153" rows="14">
+        <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+  
+            </textarea>
+      </div> 
+      
+      <div class="container">
+        <div class="row">
+          <h2>Botão Divisão</h2>
+            <p>Da mesma forma, crie menus suspensos de botões divididos com praticamente a mesma marcação que os botões suspensos de botão único, mas com a adição de .dropdown-toggle-splitespaçamento adequado ao redor do cursor suspenso.
+
+Usamos essa classe extra para reduzir a horizontal paddingem ambos os lados do cursor em 25% e remover o margin-leftque é adicionado para suspensões de botão regulares. Essas alterações extras mantêm o cursor centralizado no botão dividido e fornecem uma área de acerto com tamanho mais adequado ao lado do botão principal.</p>
+        </div>
+
+        <div class="row">
+          <!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+        </div>  
+
+        <div class="row d-flex p-2 bd-highlight">
+            <textarea  style="resize: none" cols="153" rows="14">
+  <!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+            </textarea>
+      </div> 
+
+        <div class="container">
+        <div class="row">
+          <h2> Dimencionamento </h2>
+            <p>Os menus suspensos de botões funcionam com botões de todos os tamanhos, incluindo os botões suspensos padrão e dividido.</p>
+        </div>
+
+        <div class="row">
+<!-- Large button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Large button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg" type="button">
+    Large split button
+  </button>
+  <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+
+<!-- Small button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Small button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm" type="button">
+    Small split button
+  </button>
+  <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+         
+        </div>  
+
+        <div class="row d-flex p-2 bd-highlight">
+            <textarea  style="resize: none" cols="153" rows="14">
+<!-- Large button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Large button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg" type="button">
+    Large split button
+  </button>
+  <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+
+<!-- Small button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Small button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm" type="button">
+    Small split button
+  </button>
+  <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+
+            </textarea>
+      </div> 
+
+     
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstap.js"></script>
+</body>
+</html>
