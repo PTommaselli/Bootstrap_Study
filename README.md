@@ -1,2 +1,4 @@
-# Estudo de Bootstrap
- Estudo de componentes do bootstrap
+# Bootstrap Study
+## Bootstrap components study
+
+Study about bootstrap components on a simple glossary
